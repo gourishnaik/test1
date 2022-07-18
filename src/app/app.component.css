@@ -1,0 +1,165 @@
+header{
+    position: relative;
+    width: 100%;
+    height: 109vh;
+    display: flex;
+    
+}
+/*img box*/
+
+.imgbx{
+    position: relative;
+    width:50%;
+    height:100%;
+}
+.imgbx img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0% 286% 286% 0%;
+}
+
+.contentbox{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50%;
+    height: 80%;
+
+}
+.form{
+    width:50%;
+}
+h2{
+    color:black;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+p{
+    color: gray;
+    font-size: 18px;
+  
+
+}
+.inputbox{
+    margin-bottom: 20px;
+}
+
+.inputbox{
+    width: 100%;
+    padding: 10px 14px;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: transparent;
+    border-radius: 30px;
+}
+input[type="submit"]{
+    background: aqua;
+    cursor: pointer;
+    color:#fff;
+    font-weight: 500;
+    border:none;
+    outline: none;
+    width: 71%;
+    height: 84%;
+    margin-left: 40px;
+    border-radius: 20px;
+    padding:5px;
+    font-size: 21px;
+}
+
+.fa-user {
+    float: left;
+    margin-left: 6px;
+    margin-top: -26px;
+    position: relative;
+   color: gray;
+}
+
+.fa-lock{
+    float: left;
+    margin-left: 6px;
+    margin-top: -26px;
+    position: relative;
+   color: gray; 
+}
+
+.inp{
+    border-radius: 25px;
+    border:1px solid gray;
+    width: 100%;
+    height: 44%;
+    padding: 6px 8px 14px 18px;
+    
+}
+
+p{
+    color: black;
+}
+p a{
+    
+    padding-top: 4px;
+}
+h3{
+    text-align: center;
+    padding-top: 3px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+.footer{
+    width:100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.icons .fa{
+    color:white;
+    border: 2px solid gray;
+    background: gray;
+    margin:0 23px;
+    cursor: pointer;
+    box-sizing: border-box;
+   
+
+}
+
+@media(max-width:768px)
+{
+    .imgbx{
+        
+    position: absolute;
+    width: 135%;
+    height: 106%;
+    top: -27px;
+    left: -31px;
+    }
+    .contentbox{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 135%;
+        height: 110%;
+        z-index: 1;
+
+    }
+    .form{
+        width:93%;
+        padding: 2px;
+        background: rgb(225 225 225/0.9);
+        margin-top: -164px;
+        z-index: 1;
+    }
+
+}
