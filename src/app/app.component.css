@@ -14,10 +14,11 @@ header{
 }
 .imgbx img{
     position:absolute;
-    width: 100%;
+    width: 112%;
+    border: 1px solid black;
     height: 100%;
     object-fit: cover;
-    border-radius: 0% 286% 286% 0%;
+    border-radius: 0% 216% 207% 0%;
 }
 
 .contentbox{
