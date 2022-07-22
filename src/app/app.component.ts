@@ -25,8 +25,8 @@ export class AppComponent {
 
 
   onSubmit(form: FormGroup) {
-    console.log('email', form.value.password);
-    console.log('password', form.value.email);
+    console.log('email', form.value.email);
+    console.log('password', form.value.password);
     this.myForm.reset();
     alert("Response has been submited")
   }
